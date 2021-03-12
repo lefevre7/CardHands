@@ -6,4 +6,4 @@ To get started:
 npm install
 npm start
 
-this project can also be found https://angular-ivy-gmkiv3.stackblitz.io
+this project can also be found on https://angular-ivy-gmkiv3.stackblitz.io
