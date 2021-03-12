@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<div *ngFor="let player of players | async">
+	<br>
+	<h3>
+		Player Name: {{player.name}}
+	</h3>
+	<div *ngFor="let card of player.cards; let i=index;">
+		Card {{i+1}}: {{card?.number}} of {{card?.type}}
+	</div>
+</div>
